@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import simply_grocery
 
 class simply_groceryTests: XCTestCase {
 

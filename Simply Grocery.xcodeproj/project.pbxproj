@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		543FC358610CEA61B9A15AAB /* Pods_simply_grocery_simply_groceryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25718AD9BD39AA9ABE6593CC /* Pods_simply_grocery_simply_groceryUITests.framework */; };
+		5F2515742395EDF800E66843 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2515732395EDF700E66843 /* LoginView.swift */; };
+		5F25157623960A5100E66843 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25157523960A5100E66843 /* WelcomeView.swift */; };
+		5F61841823932147006982BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F61841723932147006982BE /* GoogleService-Info.plist */; };
 		5F9419F12392FEA300F0CEEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9419F02392FEA300F0CEEE /* AppDelegate.swift */; };
 		5F9419F32392FEA300F0CEEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9419F22392FEA300F0CEEE /* SceneDelegate.swift */; };
 		5F9419F52392FEA300F0CEEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9419F42392FEA300F0CEEE /* ContentView.swift */; };
@@ -15,6 +19,8 @@
 		5F9419FD2392FEA600F0CEEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9419FB2392FEA600F0CEEE /* LaunchScreen.storyboard */; };
 		5F941A082392FEA700F0CEEE /* simply_groceryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F941A072392FEA700F0CEEE /* simply_groceryTests.swift */; };
 		5F941A132392FEA700F0CEEE /* simply_groceryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F941A122392FEA700F0CEEE /* simply_groceryUITests.swift */; };
+		93BD510B7C9542EB9127ADA0 /* Pods_simply_grocery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE8E24A05539A5783388D81 /* Pods_simply_grocery.framework */; };
+		E4677C2A6ADB54AE61AC8139 /* Pods_simply_groceryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E72FCDBC6FD6C24F7D5284 /* Pods_simply_groceryTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5F9419ED2392FEA300F0CEEE /* simply-grocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simply-grocery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17743BDE7D1C785951572907 /* Pods-simply-groceryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simply-groceryTests.debug.xcconfig"; path = "Target Support Files/Pods-simply-groceryTests/Pods-simply-groceryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E7B5056FD91D3B9A42D9FA3 /* Pods-simply-grocery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simply-grocery.debug.xcconfig"; path = "Target Support Files/Pods-simply-grocery/Pods-simply-grocery.debug.xcconfig"; sourceTree = "<group>"; };
+		25718AD9BD39AA9ABE6593CC /* Pods_simply_grocery_simply_groceryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simply_grocery_simply_groceryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E72FCDBC6FD6C24F7D5284 /* Pods_simply_groceryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simply_groceryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE8E24A05539A5783388D81 /* Pods_simply_grocery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simply_grocery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2515732395EDF700E66843 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5F25157523960A5100E66843 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		5F61841723932147006982BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5F9419ED2392FEA300F0CEEE /* Simply Grocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simply Grocery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9419F02392FEA300F0CEEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F9419F22392FEA300F0CEEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5F9419F42392FEA300F0CEEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,12 +57,16 @@
 		5F9419F92392FEA600F0CEEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F9419FC2392FEA600F0CEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F9419FE2392FEA600F0CEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F941A032392FEA700F0CEEE /* simply-groceryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simply-groceryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F941A032392FEA700F0CEEE /* Simply GroceryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simply GroceryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F941A072392FEA700F0CEEE /* simply_groceryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simply_groceryTests.swift; sourceTree = "<group>"; };
 		5F941A092392FEA700F0CEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F941A0E2392FEA700F0CEEE /* simply-groceryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simply-groceryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F941A0E2392FEA700F0CEEE /* Simply GroceryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simply GroceryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F941A122392FEA700F0CEEE /* simply_groceryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simply_groceryUITests.swift; sourceTree = "<group>"; };
 		5F941A142392FEA700F0CEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C5B4DB6F13B72F33DB0F653 /* Pods-simply-grocery-simply-groceryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simply-grocery-simply-groceryUITests.release.xcconfig"; path = "Target Support Files/Pods-simply-grocery-simply-groceryUITests/Pods-simply-grocery-simply-groceryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95E3811B7FA41F07F4FFE096 /* Pods-simply-grocery-simply-groceryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simply-grocery-simply-groceryUITests.debug.xcconfig"; path = "Target Support Files/Pods-simply-grocery-simply-groceryUITests/Pods-simply-grocery-simply-groceryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F15D5560048BD0E6802ACBB0 /* Pods-simply-grocery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simply-grocery.release.xcconfig"; path = "Target Support Files/Pods-simply-grocery/Pods-simply-grocery.release.xcconfig"; sourceTree = "<group>"; };
+		F3D89C8DBD6F7E0CAF633435 /* Pods-simply-groceryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simply-groceryTests.release.xcconfig"; path = "Target Support Files/Pods-simply-groceryTests/Pods-simply-groceryTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93BD510B7C9542EB9127ADA0 /* Pods_simply_grocery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4677C2A6ADB54AE61AC8139 /* Pods_simply_groceryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				543FC358610CEA61B9A15AAB /* Pods_simply_grocery_simply_groceryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D79EE59F331A5A1EECB83C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E7B5056FD91D3B9A42D9FA3 /* Pods-simply-grocery.debug.xcconfig */,
+				F15D5560048BD0E6802ACBB0 /* Pods-simply-grocery.release.xcconfig */,
+				95E3811B7FA41F07F4FFE096 /* Pods-simply-grocery-simply-groceryUITests.debug.xcconfig */,
+				6C5B4DB6F13B72F33DB0F653 /* Pods-simply-grocery-simply-groceryUITests.release.xcconfig */,
+				17743BDE7D1C785951572907 /* Pods-simply-groceryTests.debug.xcconfig */,
+				F3D89C8DBD6F7E0CAF633435 /* Pods-simply-groceryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F1630432393304900B1C3A7 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		5F9419E42392FEA200F0CEEE = {
 			isa = PBXGroup;
 			children = (
@@ -83,15 +124,17 @@
 				5F941A062392FEA700F0CEEE /* simply-groceryTests */,
 				5F941A112392FEA700F0CEEE /* simply-groceryUITests */,
 				5F9419EE2392FEA300F0CEEE /* Products */,
+				1D79EE59F331A5A1EECB83C6 /* Pods */,
+				D6F1D7CC03AC71A70245AA17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		5F9419EE2392FEA300F0CEEE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F9419ED2392FEA300F0CEEE /* simply-grocery.app */,
-				5F941A032392FEA700F0CEEE /* simply-groceryTests.xctest */,
-				5F941A0E2392FEA700F0CEEE /* simply-groceryUITests.xctest */,
+				5F9419ED2392FEA300F0CEEE /* Simply Grocery.app */,
+				5F941A032392FEA700F0CEEE /* Simply GroceryTests.xctest */,
+				5F941A0E2392FEA700F0CEEE /* Simply GroceryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +142,11 @@
 		5F9419EF2392FEA300F0CEEE /* simply-grocery */ = {
 			isa = PBXGroup;
 			children = (
+				5F1630432393304900B1C3A7 /* Auth */,
+				5FB57D17239325D900781752 /* Views */,
 				5F9419F02392FEA300F0CEEE /* AppDelegate.swift */,
 				5F9419F22392FEA300F0CEEE /* SceneDelegate.swift */,
-				5F9419F42392FEA300F0CEEE /* ContentView.swift */,
+				5F61841723932147006982BE /* GoogleService-Info.plist */,
 				5F9419F62392FEA600F0CEEE /* Assets.xcassets */,
 				5F9419FB2392FEA600F0CEEE /* LaunchScreen.storyboard */,
 				5F9419FE2392FEA600F0CEEE /* Info.plist */,
@@ -136,30 +181,54 @@
 			path = "simply-groceryUITests";
 			sourceTree = "<group>";
 		};
+		5FB57D17239325D900781752 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F2515732395EDF700E66843 /* LoginView.swift */,
+				5F9419F42392FEA300F0CEEE /* ContentView.swift */,
+				5F25157523960A5100E66843 /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D6F1D7CC03AC71A70245AA17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DE8E24A05539A5783388D81 /* Pods_simply_grocery.framework */,
+				25718AD9BD39AA9ABE6593CC /* Pods_simply_grocery_simply_groceryUITests.framework */,
+				27E72FCDBC6FD6C24F7D5284 /* Pods_simply_groceryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F9419EC2392FEA300F0CEEE /* simply-grocery */ = {
+		5F9419EC2392FEA300F0CEEE /* Simply Grocery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F941A172392FEA700F0CEEE /* Build configuration list for PBXNativeTarget "simply-grocery" */;
+			buildConfigurationList = 5F941A172392FEA700F0CEEE /* Build configuration list for PBXNativeTarget "Simply Grocery" */;
 			buildPhases = (
+				0EC6E51103F64FDC4BF7920F /* [CP] Check Pods Manifest.lock */,
 				5F9419E92392FEA300F0CEEE /* Sources */,
 				5F9419EA2392FEA300F0CEEE /* Frameworks */,
 				5F9419EB2392FEA300F0CEEE /* Resources */,
+				4F1FB2CFBC54850ED6C4C71A /* [CP] Embed Pods Frameworks */,
+				DB9A2361D5160B434513F850 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "simply-grocery";
+			name = "Simply Grocery";
 			productName = "simply-grocery";
-			productReference = 5F9419ED2392FEA300F0CEEE /* simply-grocery.app */;
+			productReference = 5F9419ED2392FEA300F0CEEE /* Simply Grocery.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5F941A022392FEA700F0CEEE /* simply-groceryTests */ = {
+		5F941A022392FEA700F0CEEE /* Simply GroceryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F941A1A2392FEA700F0CEEE /* Build configuration list for PBXNativeTarget "simply-groceryTests" */;
+			buildConfigurationList = 5F941A1A2392FEA700F0CEEE /* Build configuration list for PBXNativeTarget "Simply GroceryTests" */;
 			buildPhases = (
+				58A0E5E107CF5B780F5889D9 /* [CP] Check Pods Manifest.lock */,
 				5F9419FF2392FEA700F0CEEE /* Sources */,
 				5F941A002392FEA700F0CEEE /* Frameworks */,
 				5F941A012392FEA700F0CEEE /* Resources */,
@@ -169,27 +238,30 @@
 			dependencies = (
 				5F941A052392FEA700F0CEEE /* PBXTargetDependency */,
 			);
-			name = "simply-groceryTests";
+			name = "Simply GroceryTests";
 			productName = "simply-groceryTests";
-			productReference = 5F941A032392FEA700F0CEEE /* simply-groceryTests.xctest */;
+			productReference = 5F941A032392FEA700F0CEEE /* Simply GroceryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5F941A0D2392FEA700F0CEEE /* simply-groceryUITests */ = {
+		5F941A0D2392FEA700F0CEEE /* Simply GroceryUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F941A1D2392FEA700F0CEEE /* Build configuration list for PBXNativeTarget "simply-groceryUITests" */;
+			buildConfigurationList = 5F941A1D2392FEA700F0CEEE /* Build configuration list for PBXNativeTarget "Simply GroceryUITests" */;
 			buildPhases = (
+				49190F383136EE84E4E5057A /* [CP] Check Pods Manifest.lock */,
 				5F941A0A2392FEA700F0CEEE /* Sources */,
 				5F941A0B2392FEA700F0CEEE /* Frameworks */,
 				5F941A0C2392FEA700F0CEEE /* Resources */,
+				974883D4B55CE7E5416AF908 /* [CP] Embed Pods Frameworks */,
+				EC4AF371BC9462B2665D104F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				5F941A102392FEA700F0CEEE /* PBXTargetDependency */,
 			);
-			name = "simply-groceryUITests";
+			name = "Simply GroceryUITests";
 			productName = "simply-groceryUITests";
-			productReference = 5F941A0E2392FEA700F0CEEE /* simply-groceryUITests.xctest */;
+			productReference = 5F941A0E2392FEA700F0CEEE /* Simply GroceryUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +287,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5F9419E82392FEA200F0CEEE /* Build configuration list for PBXProject "simply-grocery" */;
+			buildConfigurationList = 5F9419E82392FEA200F0CEEE /* Build configuration list for PBXProject "Simply Grocery" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +300,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F9419EC2392FEA300F0CEEE /* simply-grocery */,
-				5F941A022392FEA700F0CEEE /* simply-groceryTests */,
-				5F941A0D2392FEA700F0CEEE /* simply-groceryUITests */,
+				5F9419EC2392FEA300F0CEEE /* Simply Grocery */,
+				5F941A022392FEA700F0CEEE /* Simply GroceryTests */,
+				5F941A0D2392FEA700F0CEEE /* Simply GroceryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -241,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F9419FD2392FEA600F0CEEE /* LaunchScreen.storyboard in Resources */,
+				5F61841823932147006982BE /* GoogleService-Info.plist in Resources */,
 				5F9419FA2392FEA600F0CEEE /* Preview Assets.xcassets in Resources */,
 				5F9419F72392FEA600F0CEEE /* Assets.xcassets in Resources */,
 			);
@@ -262,14 +335,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EC6E51103F64FDC4BF7920F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-simply-grocery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49190F383136EE84E4E5057A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-simply-grocery-simply-groceryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F1FB2CFBC54850ED6C4C71A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simply-grocery/Pods-simply-grocery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simply-grocery/Pods-simply-grocery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simply-grocery/Pods-simply-grocery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58A0E5E107CF5B780F5889D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-simply-groceryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		974883D4B55CE7E5416AF908 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simply-grocery-simply-groceryUITests/Pods-simply-grocery-simply-groceryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simply-grocery-simply-groceryUITests/Pods-simply-grocery-simply-groceryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simply-grocery-simply-groceryUITests/Pods-simply-grocery-simply-groceryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB9A2361D5160B434513F850 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simply-grocery/Pods-simply-grocery-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simply-grocery/Pods-simply-grocery-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simply-grocery/Pods-simply-grocery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC4AF371BC9462B2665D104F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simply-grocery-simply-groceryUITests/Pods-simply-grocery-simply-groceryUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-simply-grocery-simply-groceryUITests/Pods-simply-grocery-simply-groceryUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simply-grocery-simply-groceryUITests/Pods-simply-grocery-simply-groceryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5F9419E92392FEA300F0CEEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F25157623960A5100E66843 /* WelcomeView.swift in Sources */,
 				5F9419F12392FEA300F0CEEE /* AppDelegate.swift in Sources */,
 				5F9419F32392FEA300F0CEEE /* SceneDelegate.swift in Sources */,
 				5F9419F52392FEA300F0CEEE /* ContentView.swift in Sources */,
+				5F2515742395EDF800E66843 /* LoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,12 +506,12 @@
 /* Begin PBXTargetDependency section */
 		5F941A052392FEA700F0CEEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5F9419EC2392FEA300F0CEEE /* simply-grocery */;
+			target = 5F9419EC2392FEA300F0CEEE /* Simply Grocery */;
 			targetProxy = 5F941A042392FEA700F0CEEE /* PBXContainerItemProxy */;
 		};
 		5F941A102392FEA700F0CEEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5F9419EC2392FEA300F0CEEE /* simply-grocery */;
+			target = 5F9419EC2392FEA300F0CEEE /* Simply Grocery */;
 			targetProxy = 5F941A0F2392FEA700F0CEEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -432,6 +644,7 @@
 		};
 		5F941A182392FEA700F0CEEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E7B5056FD91D3B9A42D9FA3 /* Pods-simply-grocery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,12 +659,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "brandontoy.simply-grocery";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5F941A192392FEA700F0CEEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15D5560048BD0E6802ACBB0 /* Pods-simply-grocery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,12 +680,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "brandontoy.simply-grocery";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		5F941A1B2392FEA700F0CEEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17743BDE7D1C785951572907 /* Pods-simply-groceryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,12 +703,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simply-grocery.app/simply-grocery";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simply Grocery.app/Simply Grocery";
 			};
 			name = Debug;
 		};
 		5F941A1C2392FEA700F0CEEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D89C8DBD6F7E0CAF633435 /* Pods-simply-groceryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,12 +726,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simply-grocery.app/simply-grocery";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simply Grocery.app/Simply Grocery";
 			};
 			name = Release;
 		};
 		5F941A1E2392FEA700F0CEEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95E3811B7FA41F07F4FFE096 /* Pods-simply-grocery-simply-groceryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +753,7 @@
 		};
 		5F941A1F2392FEA700F0CEEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5B4DB6F13B72F33DB0F653 /* Pods-simply-grocery-simply-groceryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -557,7 +775,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F9419E82392FEA200F0CEEE /* Build configuration list for PBXProject "simply-grocery" */ = {
+		5F9419E82392FEA200F0CEEE /* Build configuration list for PBXProject "Simply Grocery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F941A152392FEA700F0CEEE /* Debug */,
@@ -566,7 +784,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F941A172392FEA700F0CEEE /* Build configuration list for PBXNativeTarget "simply-grocery" */ = {
+		5F941A172392FEA700F0CEEE /* Build configuration list for PBXNativeTarget "Simply Grocery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F941A182392FEA700F0CEEE /* Debug */,
@@ -575,7 +793,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F941A1A2392FEA700F0CEEE /* Build configuration list for PBXNativeTarget "simply-groceryTests" */ = {
+		5F941A1A2392FEA700F0CEEE /* Build configuration list for PBXNativeTarget "Simply GroceryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F941A1B2392FEA700F0CEEE /* Debug */,
@@ -584,7 +802,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F941A1D2392FEA700F0CEEE /* Build configuration list for PBXNativeTarget "simply-groceryUITests" */ = {
+		5F941A1D2392FEA700F0CEEE /* Build configuration list for PBXNativeTarget "Simply GroceryUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F941A1E2392FEA700F0CEEE /* Debug */,
