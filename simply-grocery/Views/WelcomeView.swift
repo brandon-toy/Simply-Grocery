@@ -14,7 +14,7 @@ struct WelcomeView: View {
       if userSettings().getLogin() {
         GroceryListCheck()
       } else {
-//        WelcomeViewPage()
+        WelcomeViewPage()
       }
     }
   }

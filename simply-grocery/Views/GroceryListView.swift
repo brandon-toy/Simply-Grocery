@@ -10,10 +10,11 @@ import SwiftUI
 import Firebase
 
 struct GroceryListCheck: View {
+  @State var signInSuccess: Bool = userSettings().getLogin()
   var body: some View {
     return Group {
-      if userSettings().getLogin() {
-        GroceryListView()
+      if signInSuccess {
+        GroceryListView(signInSuccess: $signInSuccess)
           .navigationBarHidden(true)
           .navigationBarTitle("Hidden Title")
       } else {
@@ -26,8 +27,9 @@ struct GroceryListCheck: View {
 }
 
 struct GroceryListView: View {
-  @State var signedOut: Bool = false
+  @Binding var signInSuccess: Bool
   @State var email: String = ""
+  
     var body: some View {
       VStack {
         Text("email: "+email)
@@ -53,6 +55,7 @@ struct GroceryListView: View {
         print("Signing out")
         try Auth.auth().signOut()
         userSettings().setLogin(val: false)
+        self.signInSuccess = false
         print("this is usersettings: " , userSettings().getLogin())
       } catch let signOutError as NSError {
           print ("Error signing out: %@", signOutError)
@@ -60,8 +63,9 @@ struct GroceryListView: View {
   }
 }
 
-struct GroceryListView_Previews: PreviewProvider {
-    static var previews: some View {
-        GroceryListView()
-    }
-}
+//struct GroceryListView_Previews: PreviewProvider {
+//    static var previews: some View {
+//      var yeet = true
+//        GroceryListView(signInSuccess: Binding(true))
+//    }
+//}
