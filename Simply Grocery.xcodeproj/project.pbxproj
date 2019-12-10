@@ -10,10 +10,13 @@
 		543FC358610CEA61B9A15AAB /* Pods_simply_grocery_simply_groceryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25718AD9BD39AA9ABE6593CC /* Pods_simply_grocery_simply_groceryUITests.framework */; };
 		5F2515742395EDF800E66843 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2515732395EDF700E66843 /* LoginView.swift */; };
 		5F25157623960A5100E66843 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25157523960A5100E66843 /* WelcomeView.swift */; };
+		5F4DF3352399E53800FF830C /* GroceryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF3342399E53800FF830C /* GroceryListView.swift */; };
+		5F4DF33A239C53BF00FF830C /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF339239C53BF00FF830C /* UserSettings.swift */; };
+		5F4DF33D239C5AC800FF830C /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF33C239C5AC800FF830C /* Session.swift */; };
 		5F61841823932147006982BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F61841723932147006982BE /* GoogleService-Info.plist */; };
 		5F9419F12392FEA300F0CEEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9419F02392FEA300F0CEEE /* AppDelegate.swift */; };
 		5F9419F32392FEA300F0CEEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9419F22392FEA300F0CEEE /* SceneDelegate.swift */; };
-		5F9419F52392FEA300F0CEEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9419F42392FEA300F0CEEE /* ContentView.swift */; };
+		5F9419F52392FEA300F0CEEE /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9419F42392FEA300F0CEEE /* SignUp.swift */; };
 		5F9419F72392FEA600F0CEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9419F62392FEA600F0CEEE /* Assets.xcassets */; };
 		5F9419FA2392FEA600F0CEEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9419F92392FEA600F0CEEE /* Preview Assets.xcassets */; };
 		5F9419FD2392FEA600F0CEEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9419FB2392FEA600F0CEEE /* LaunchScreen.storyboard */; };
@@ -48,11 +51,14 @@
 		5DE8E24A05539A5783388D81 /* Pods_simply_grocery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simply_grocery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F2515732395EDF700E66843 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5F25157523960A5100E66843 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		5F4DF3342399E53800FF830C /* GroceryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListView.swift; sourceTree = "<group>"; };
+		5F4DF339239C53BF00FF830C /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		5F4DF33C239C5AC800FF830C /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		5F61841723932147006982BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5F9419ED2392FEA300F0CEEE /* Simply Grocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simply Grocery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9419F02392FEA300F0CEEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F9419F22392FEA300F0CEEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F9419F42392FEA300F0CEEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5F9419F42392FEA300F0CEEE /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		5F9419F62392FEA600F0CEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F9419F92392FEA600F0CEEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F9419FC2392FEA600F0CEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,13 +116,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		5F1630432393304900B1C3A7 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
 		5F9419E42392FEA200F0CEEE = {
 			isa = PBXGroup;
 			children = (
@@ -142,7 +141,6 @@
 		5F9419EF2392FEA300F0CEEE /* simply-grocery */ = {
 			isa = PBXGroup;
 			children = (
-				5F1630432393304900B1C3A7 /* Auth */,
 				5FB57D17239325D900781752 /* Views */,
 				5F9419F02392FEA300F0CEEE /* AppDelegate.swift */,
 				5F9419F22392FEA300F0CEEE /* SceneDelegate.swift */,
@@ -150,7 +148,9 @@
 				5F9419F62392FEA600F0CEEE /* Assets.xcassets */,
 				5F9419FB2392FEA600F0CEEE /* LaunchScreen.storyboard */,
 				5F9419FE2392FEA600F0CEEE /* Info.plist */,
+				5F4DF339239C53BF00FF830C /* UserSettings.swift */,
 				5F9419F82392FEA600F0CEEE /* Preview Content */,
+				5F4DF33C239C5AC800FF830C /* Session.swift */,
 			);
 			path = "simply-grocery";
 			sourceTree = "<group>";
@@ -185,8 +185,9 @@
 			isa = PBXGroup;
 			children = (
 				5F2515732395EDF700E66843 /* LoginView.swift */,
-				5F9419F42392FEA300F0CEEE /* ContentView.swift */,
+				5F9419F42392FEA300F0CEEE /* SignUp.swift */,
 				5F25157523960A5100E66843 /* WelcomeView.swift */,
+				5F4DF3342399E53800FF830C /* GroceryListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -479,9 +480,12 @@
 			files = (
 				5F25157623960A5100E66843 /* WelcomeView.swift in Sources */,
 				5F9419F12392FEA300F0CEEE /* AppDelegate.swift in Sources */,
+				5F4DF3352399E53800FF830C /* GroceryListView.swift in Sources */,
 				5F9419F32392FEA300F0CEEE /* SceneDelegate.swift in Sources */,
-				5F9419F52392FEA300F0CEEE /* ContentView.swift in Sources */,
+				5F4DF33D239C5AC800FF830C /* Session.swift in Sources */,
+				5F9419F52392FEA300F0CEEE /* SignUp.swift in Sources */,
 				5F2515742395EDF800E66843 /* LoginView.swift in Sources */,
+				5F4DF33A239C53BF00FF830C /* UserSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,13 +9,18 @@
 import SwiftUI
 
 struct WelcomeView: View {
-  
-//  init() { // for navigation bar title color
-//          UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.black]
-//  // For navigation bar background color
-//  UINavigationBar.appearance().backgroundColor = .clear
-//     }
-  
+  var body: some View {
+    return Group {
+      if userSettings().getLogin() {
+        GroceryListCheck()
+      } else {
+//        WelcomeViewPage()
+      }
+    }
+  }
+}
+
+struct WelcomeViewPage: View {
     var body: some View {
         
       NavigationView {
@@ -37,13 +42,6 @@ struct WelcomeView: View {
                   Text("Find all grocery").font(.body)
                   Text("stores nearby").font(.body)
                 }
-//                VStack {
-//                  Image("cloud")
-//                    .resizable()
-//                    .frame(width: 50, height: 50)
-//                  Text("Access from multiple").font(.body)
-//                  Text("devices").font(.body)
-//                }
             }
             Spacer()
 
@@ -52,15 +50,15 @@ struct WelcomeView: View {
                     Text("Sign Up")
                       .padding(.horizontal, 50)
                       .padding(.vertical, 10)
-                      .foregroundColor(Color.black)
+                      .foregroundColor(Color("inverted"))
               }.overlay(
                   RoundedRectangle(cornerRadius: 20)
-                      .stroke(Color.black, lineWidth: 1)
+                    .stroke(Color("inverted"), lineWidth: 1)
               )
               NavigationLink(destination: Login()) {
                 Text("Login")
                 .padding()
-                  .font(.caption)
+                .font(.caption)
               }
             }
             Spacer()
@@ -84,15 +82,12 @@ struct WelcomeView_Previews: PreviewProvider {
     static var previews: some View {
       Group {
          WelcomeView()
-            .previewDevice(PreviewDevice(rawValue: "iPhone SE"))
-            .previewDisplayName("iPhone SE")
-//         WelcomeView()
-//            .previewDevice(PreviewDevice(rawValue: "iPhone 6"))
-//            .previewDisplayName("iPhone 6")
+            .previewDevice(PreviewDevice(rawValue: "iPhone 11 Pro"))
+            .previewDisplayName("iPhone 11 Pro")
          WelcomeView()
             .previewDevice(PreviewDevice(rawValue: "iPhone XS Max"))
             .previewDisplayName("iPhone XS Max")
-//            .environment(\.colorScheme, .dark)
+            .environment(\.colorScheme, .dark)
       }
     }
 }
