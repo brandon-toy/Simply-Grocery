@@ -12,7 +12,10 @@ struct WelcomeView: View {
   var body: some View {
     return Group {
       if userSettings().getLogin() {
-        GroceryListCheck()
+        NavigationView {
+          GroceryListCheck()
+            .navigationBarTitle("Grocery List")
+        }
       } else {
         WelcomeViewPage()
       }
@@ -63,7 +66,7 @@ struct WelcomeViewPage: View {
             }
             Spacer()
           }
-        .navigationBarHidden(true)
+
       }
     }
 }

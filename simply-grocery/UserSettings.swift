@@ -14,6 +14,7 @@ class userSettings : ObservableObject{
   var loggedIn : Bool
   var name : String = ""
   var email : String = ""
+  var uid : String = ""
   
   init() {
     self.loggedIn = UserDefaults.standard.bool(forKey: "isLoggedIn")
@@ -43,6 +44,14 @@ class userSettings : ObservableObject{
   
   func getEmail() -> String {
     return self.email
+  }
+  
+  func setUID(uid: String) {
+    self.uid = uid
+  }
+  
+  func getUID() -> String {
+    return self.uid
   }
   
 }

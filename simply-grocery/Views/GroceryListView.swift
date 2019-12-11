@@ -4,7 +4,7 @@
 //
 //  Created by Brandon Toy on 2019-12-05.
 //  Copyright © 2019 Brandon Toy. All rights reserved.
-//
+// credits https://www.flaticon.com/authors/smashicons
 
 import SwiftUI
 import Firebase
@@ -15,8 +15,7 @@ struct GroceryListCheck: View {
     return Group {
       if signInSuccess {
         GroceryListView(signInSuccess: $signInSuccess)
-          .navigationBarHidden(true)
-          .navigationBarTitle("Hidden Title")
+          .navigationBarTitle("Simply Grocery")
       } else {
         WelcomeView()
           .navigationBarHidden(true)
@@ -28,26 +27,64 @@ struct GroceryListCheck: View {
 
 struct GroceryListView: View {
   @Binding var signInSuccess: Bool
-  @State var email: String = ""
+  @State var addButton: Bool = false
   
+  /**
+   * if scroll up -> refresh and sync to database
+   * grab user inputs and put them in an array
+   */
     var body: some View {
-      VStack {
-        Text("email: "+email)
-        Text("hello world")
-        Button(action: signOut) {
-          Text("Sign out")
+      ZStack {
+       GeometryReader { geometry in
+        TabView {
+          ToDoListView()
+            .tabItem {
+              Image(systemName: "list.bullet")
+              Text("List")
+            }
+//          ToDoListView()
+//            .tabItem {
+//              Button(action: self.addPress) {
+//                  Text("add")
+//                }
+//            }
+          Button(action: self.signOut) {
+            Text("Sign out")
+          }
+            .tabItem {
+              Image(systemName: "location")
+              Text("Locater")
+            }
         }
-      }.onAppear {self.storeEmail()}
-    }
-  
-    func storeEmail() {
-      let user = Auth.auth().currentUser
-      if let user = user {
-        // The user's ID, unique to the Firebase project.
-        // Do NOT use this value to authenticate with your backend server,
-        // if you have one. Use getTokenWithCompletion:completion: instead.
-        self.email = user.email!
+          Image(systemName: "pencil.and.outline")
+           .resizable()
+           .frame(width: 40, height: 40)
+           .offset(x: geometry.size.width / 2 - 20, y: geometry.size.height - 70)
+           .onTapGesture {
+            self.addButton.toggle()
+          }
+        }
       }
+        .sheet(isPresented: $addButton, content: {
+          AddNewItemView(addButton: self.$addButton)
+        })
+        .font(.headline)
+        .navigationBarHidden(false)
+        .navigationBarTitle("Grocery List")
+      }
+//  .onAppear {self.storeEmail()}
+  
+//    func storeEmail() {
+//      let user = Auth.auth().currentUser
+//      if let user = user {
+//        // The user's ID, unique to the Firebase project.
+//        // Do NOT use this value to authenticate with your backend server,
+//        // if you have one. Use getTokenWithCompletion:completion: instead.
+//      }
+//    }
+  
+    func addPress() {
+      self.addButton.toggle()
     }
   
     func signOut() {
@@ -63,9 +100,16 @@ struct GroceryListView: View {
   }
 }
 
-//struct GroceryListView_Previews: PreviewProvider {
-//    static var previews: some View {
-//      var yeet = true
-//        GroceryListView(signInSuccess: Binding(true))
-//    }
-//}
+struct GroceryListView_Previews: PreviewProvider {
+    static var previews: some View {
+      Group {
+        GroceryListCheck(signInSuccess: true)
+          .previewDevice(PreviewDevice(rawValue: "iPhone 11 Pro"))
+          .previewDisplayName("iPhone 11 Pro")
+          .environment(\.colorScheme, .dark)
+        GroceryListCheck(signInSuccess: true)
+          .previewDevice(PreviewDevice(rawValue: "iPhone 11 Pro Max"))
+          .previewDisplayName("iPhone 11 Pro Max")
+      }
+  }
+}
