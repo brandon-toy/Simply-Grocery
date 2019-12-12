@@ -158,3 +158,24 @@ struct ActivityRep: UIViewRepresentable {
         uiView.startAnimating()
     }
 }
+
+class MyModel: ObservableObject {
+@Published var loading: Bool = false {
+    didSet {
+        if oldValue == false && loading == true {
+            self.load()
+        }
+    }
+}
+
+
+var idx = 0
+
+func load() {
+    // Simulate async task
+    
+    //then finish loading
+    self.loading = false
+        
+  }
+}
