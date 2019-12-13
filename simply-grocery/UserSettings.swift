@@ -9,11 +9,13 @@
 import Foundation
 import SwiftUI
 
-class userSettings : ObservableObject{
+class userSettings : ObservableObject {
   
   var loggedIn : Bool
   var name : String = ""
   var email : String = ""
+  var uid : String = ""
+  @Published var list : Array = [groceryList]()
   
   init() {
     self.loggedIn = UserDefaults.standard.bool(forKey: "isLoggedIn")
@@ -43,6 +45,23 @@ class userSettings : ObservableObject{
   
   func getEmail() -> String {
     return self.email
+  }
+  
+  func setUID(uid: String) {
+    self.uid = uid
+  }
+  
+  func getUID() -> String {
+    return self.uid
+  }
+  
+  func addToArray(item: groceryList) {
+    self.list.append(item)
+    print(self.list)
+  }
+  
+  func getArray() -> Array<groceryList> {
+    return self.list
   }
   
 }

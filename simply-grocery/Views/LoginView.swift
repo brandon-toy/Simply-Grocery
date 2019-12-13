@@ -32,26 +32,25 @@ struct LoginPage: View {
   @Binding var loginButton: Bool
   
   var body: some View {
-//  NavigationView {
     VStack(spacing:20) {
-        VStack {
-          TextField("Email: ", text: $email)
-            .font(.caption)
-          Divider()
-        }
-        VStack {
-          SecureField("Password: ",text: $password)
-            .font(.caption)
-          Divider()
-        }
-        Button(action: signIn) {
-            Text("Login")
-        }
-//        NavigationLink(destination: GroceryListView(), isActive: self.$loginButton) {
-//              Text("")
-//        }.hidden()
+      Title()
+      Spacer().frame(width:10, height:10)
+      VStack(spacing: 1) {
+        TextField("Email: ", text: $email)
+          .font(.caption)
+          .autocapitalization(.none)
+        Divider()
       }
-//      }.navigationBarBackButtonHidden(false)
+      VStack(spacing: 1) {
+        SecureField("Password: ",text: $password)
+          .font(.caption)
+        Divider()
+      }
+      Button(action: signIn) {
+          Text("Login")
+      }
+      Spacer().frame(width:10, height:250)
+    }.padding(50)
   }
   func signIn() {
     Auth.auth().signIn(withEmail: email, password: password) {
