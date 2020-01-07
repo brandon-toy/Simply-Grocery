@@ -15,53 +15,52 @@ class userSettings : ObservableObject {
   var name : String = ""
   var email : String = ""
   var uid : String = ""
-  @Published var list : Array = [groceryList]()
+  @Published var list: [String] = []
   
   init() {
     self.loggedIn = UserDefaults.standard.bool(forKey: "isLoggedIn")
   }
   
-  func getLogin() -> Bool {
-    return self.loggedIn
-  }
-  
   func setLogin(val: Bool) {
     UserDefaults.standard.set(val, forKey: "isLoggedIn")
     UserDefaults.standard.synchronize()
-    self.loggedIn = self.getLogin()
-  }
-  
-  func getName() -> String {
-    return self.name
+    self.loggedIn = val
   }
   
   func setName(name: String) {
-    self.name = name
+    UserDefaults.standard.set(name, forKey: "name")
+    UserDefaults.standard.synchronize()
   }
   
   func setEmail(email: String) {
-    self.email = email
+    UserDefaults.standard.set(email, forKey: "email")
+    UserDefaults.standard.synchronize()
   }
-  
-  func getEmail() -> String {
-    return self.email
-  }
+
   
   func setUID(uid: String) {
-    self.uid = uid
+    UserDefaults.standard.set(uid, forKey: "uid")
+    UserDefaults.standard.synchronize()
   }
   
   func getUID() -> String {
     return self.uid
   }
   
-  func addToArray(item: groceryList) {
+  func addToArray(item: String) {
     self.list.append(item)
     print(self.list)
   }
   
-  func getArray() -> Array<groceryList> {
-    return self.list
+  func updateFields() {
+    self.name = UserDefaults.standard.string(forKey: "name")!
+    self.email = UserDefaults.standard.string(forKey: "email")!
+  }
+  
+  func setUserDetails(name: String, email: String, login: Bool) {
+    self.setLogin(val: login)
+    self.setEmail(email: email)
+    self.setName(name: name)
   }
   
 }
