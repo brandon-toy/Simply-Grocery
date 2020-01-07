@@ -2,7 +2,7 @@
 
 Crud Application that utilizes Google's Firebase + Firestore technology.
 
-Screenshots
+[Screenshots] (https://github.com/brandon-toy/Simply-Grocery/issues/3)
 
 ## Running Locally
 
