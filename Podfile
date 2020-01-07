@@ -7,20 +7,21 @@ pod 'Firebase/Core'
 pod 'Firebase/Firestore'
 pod 'FirebaseFirestoreSwift'
 pod 'GoogleSignIn', '< 5.0.0'
+pod 'GoogleMaps'
+pod 'GooglePlaces'
 
-
-target 'simply-grocery' do
+target 'Simply Grocery' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for simply-grocery
 
-  target 'simply-groceryTests' do
+  target 'Simply GroceryTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'simply-groceryUITests' do
+  target 'Simply GroceryUITests' do
     # Pods for testing
   end
 

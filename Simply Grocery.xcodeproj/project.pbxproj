@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		543FC358610CEA61B9A15AAB /* Pods_simply_grocery_simply_groceryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25718AD9BD39AA9ABE6593CC /* Pods_simply_grocery_simply_groceryUITests.framework */; };
+		077E34DBD27D0D2D52B4F525 /* Pods_Simply_Grocery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B543F61C679AD4B113C4D999 /* Pods_Simply_Grocery.framework */; };
+		55F44D5C9834E3789444CF28 /* Pods_Simply_GroceryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C0C3C8F3F435E95C09CAED /* Pods_Simply_GroceryTests.framework */; };
 		5F2515742395EDF800E66843 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2515732395EDF700E66843 /* LoginView.swift */; };
 		5F25157623960A5100E66843 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25157523960A5100E66843 /* WelcomeView.swift */; };
 		5F4DF3352399E53800FF830C /* GroceryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF3342399E53800FF830C /* GroceryListView.swift */; };
 		5F4DF33A239C53BF00FF830C /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF339239C53BF00FF830C /* UserSettings.swift */; };
-		5F4DF33D239C5AC800FF830C /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF33C239C5AC800FF830C /* Session.swift */; };
 		5F4DF34023A0866000FF830C /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF33F23A0866000FF830C /* ToDoListView.swift */; };
-		5F4DF34223A088B200FF830C /* RefreshableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF34123A088B200FF830C /* RefreshableScrollView.swift */; };
-		5F4DF34423A0890A00FF830C /* dbLookupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF34323A0890A00FF830C /* dbLookupView.swift */; };
 		5F4DF34623A090F600FF830C /* AddNewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4DF34523A090F600FF830C /* AddNewItemView.swift */; };
 		5F61841823932147006982BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F61841723932147006982BE /* GoogleService-Info.plist */; };
+		5F779CB223A314E200BCFE95 /* db.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F779CB123A314E200BCFE95 /* db.swift */; };
 		5F9419F12392FEA300F0CEEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9419F02392FEA300F0CEEE /* AppDelegate.swift */; };
 		5F9419F32392FEA300F0CEEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9419F22392FEA300F0CEEE /* SceneDelegate.swift */; };
 		5F9419F52392FEA300F0CEEE /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9419F42392FEA300F0CEEE /* SignUp.swift */; };
 		5F9419F72392FEA600F0CEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9419F62392FEA600F0CEEE /* Assets.xcassets */; };
 		5F9419FA2392FEA600F0CEEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9419F92392FEA600F0CEEE /* Preview Assets.xcassets */; };
-		5F9419FD2392FEA600F0CEEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9419FB2392FEA600F0CEEE /* LaunchScreen.storyboard */; };
 		5F941A082392FEA700F0CEEE /* simply_groceryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F941A072392FEA700F0CEEE /* simply_groceryTests.swift */; };
 		5F941A132392FEA700F0CEEE /* simply_groceryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F941A122392FEA700F0CEEE /* simply_groceryUITests.swift */; };
-		93BD510B7C9542EB9127ADA0 /* Pods_simply_grocery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE8E24A05539A5783388D81 /* Pods_simply_grocery.framework */; };
-		E4677C2A6ADB54AE61AC8139 /* Pods_simply_groceryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E72FCDBC6FD6C24F7D5284 /* Pods_simply_groceryTests.framework */; };
+		5FFFC3B023AB0FAF00CC1481 /* FindNearestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFFC3AF23AB0FAF00CC1481 /* FindNearestView.swift */; };
+		D8A6C7DE89477FC3BBDD3D3C /* Pods_Simply_Grocery_Simply_GroceryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546A072D73CC8D081081C0E2 /* Pods_Simply_Grocery_Simply_GroceryUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,26 +48,23 @@
 /* Begin PBXFileReference section */
 		17743BDE7D1C785951572907 /* Pods-simply-groceryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simply-groceryTests.debug.xcconfig"; path = "Target Support Files/Pods-simply-groceryTests/Pods-simply-groceryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1E7B5056FD91D3B9A42D9FA3 /* Pods-simply-grocery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simply-grocery.debug.xcconfig"; path = "Target Support Files/Pods-simply-grocery/Pods-simply-grocery.debug.xcconfig"; sourceTree = "<group>"; };
-		25718AD9BD39AA9ABE6593CC /* Pods_simply_grocery_simply_groceryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simply_grocery_simply_groceryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27E72FCDBC6FD6C24F7D5284 /* Pods_simply_groceryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simply_groceryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DE8E24A05539A5783388D81 /* Pods_simply_grocery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simply_grocery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB8FC4ABED3E5ABD88602C5 /* Pods-Simply Grocery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simply Grocery.debug.xcconfig"; path = "Target Support Files/Pods-Simply Grocery/Pods-Simply Grocery.debug.xcconfig"; sourceTree = "<group>"; };
+		496D5946F35E99E222D8B2FC /* Pods-Simply Grocery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simply Grocery.release.xcconfig"; path = "Target Support Files/Pods-Simply Grocery/Pods-Simply Grocery.release.xcconfig"; sourceTree = "<group>"; };
+		546A072D73CC8D081081C0E2 /* Pods_Simply_Grocery_Simply_GroceryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simply_Grocery_Simply_GroceryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F2515732395EDF700E66843 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5F25157523960A5100E66843 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		5F4DF3342399E53800FF830C /* GroceryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListView.swift; sourceTree = "<group>"; };
 		5F4DF339239C53BF00FF830C /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
-		5F4DF33C239C5AC800FF830C /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		5F4DF33F23A0866000FF830C /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
-		5F4DF34123A088B200FF830C /* RefreshableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableScrollView.swift; sourceTree = "<group>"; };
-		5F4DF34323A0890A00FF830C /* dbLookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dbLookupView.swift; sourceTree = "<group>"; };
 		5F4DF34523A090F600FF830C /* AddNewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemView.swift; sourceTree = "<group>"; };
 		5F61841723932147006982BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5F779CB123A314E200BCFE95 /* db.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = db.swift; sourceTree = "<group>"; };
 		5F9419ED2392FEA300F0CEEE /* Simply Grocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simply Grocery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9419F02392FEA300F0CEEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F9419F22392FEA300F0CEEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5F9419F42392FEA300F0CEEE /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		5F9419F62392FEA600F0CEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F9419F92392FEA600F0CEEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5F9419FC2392FEA600F0CEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F9419FE2392FEA600F0CEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F941A032392FEA700F0CEEE /* Simply GroceryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simply GroceryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F941A072392FEA700F0CEEE /* simply_groceryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simply_groceryTests.swift; sourceTree = "<group>"; };
@@ -77,8 +72,15 @@
 		5F941A0E2392FEA700F0CEEE /* Simply GroceryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simply GroceryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F941A122392FEA700F0CEEE /* simply_groceryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simply_groceryUITests.swift; sourceTree = "<group>"; };
 		5F941A142392FEA700F0CEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FFFC3AF23AB0FAF00CC1481 /* FindNearestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNearestView.swift; sourceTree = "<group>"; };
 		6C5B4DB6F13B72F33DB0F653 /* Pods-simply-grocery-simply-groceryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simply-grocery-simply-groceryUITests.release.xcconfig"; path = "Target Support Files/Pods-simply-grocery-simply-groceryUITests/Pods-simply-grocery-simply-groceryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6D27A7BBBB7FE87C91C0D62A /* Pods-Simply Grocery-Simply GroceryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simply Grocery-Simply GroceryUITests.release.xcconfig"; path = "Target Support Files/Pods-Simply Grocery-Simply GroceryUITests/Pods-Simply Grocery-Simply GroceryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88C0C3C8F3F435E95C09CAED /* Pods_Simply_GroceryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simply_GroceryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE57F277AF788920F035B91 /* Pods-Simply Grocery-Simply GroceryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simply Grocery-Simply GroceryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Simply Grocery-Simply GroceryUITests/Pods-Simply Grocery-Simply GroceryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90C2B0DC65C373EA058383D9 /* Pods-Simply GroceryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simply GroceryTests.release.xcconfig"; path = "Target Support Files/Pods-Simply GroceryTests/Pods-Simply GroceryTests.release.xcconfig"; sourceTree = "<group>"; };
 		95E3811B7FA41F07F4FFE096 /* Pods-simply-grocery-simply-groceryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simply-grocery-simply-groceryUITests.debug.xcconfig"; path = "Target Support Files/Pods-simply-grocery-simply-groceryUITests/Pods-simply-grocery-simply-groceryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B543F61C679AD4B113C4D999 /* Pods_Simply_Grocery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simply_Grocery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBFA0E5FE64CEFB9A493597 /* Pods-Simply GroceryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simply GroceryTests.debug.xcconfig"; path = "Target Support Files/Pods-Simply GroceryTests/Pods-Simply GroceryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F15D5560048BD0E6802ACBB0 /* Pods-simply-grocery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simply-grocery.release.xcconfig"; path = "Target Support Files/Pods-simply-grocery/Pods-simply-grocery.release.xcconfig"; sourceTree = "<group>"; };
 		F3D89C8DBD6F7E0CAF633435 /* Pods-simply-groceryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simply-groceryTests.release.xcconfig"; path = "Target Support Files/Pods-simply-groceryTests/Pods-simply-groceryTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93BD510B7C9542EB9127ADA0 /* Pods_simply_grocery.framework in Frameworks */,
+				077E34DBD27D0D2D52B4F525 /* Pods_Simply_Grocery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4677C2A6ADB54AE61AC8139 /* Pods_simply_groceryTests.framework in Frameworks */,
+				55F44D5C9834E3789444CF28 /* Pods_Simply_GroceryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				543FC358610CEA61B9A15AAB /* Pods_simply_grocery_simply_groceryUITests.framework in Frameworks */,
+				D8A6C7DE89477FC3BBDD3D3C /* Pods_Simply_Grocery_Simply_GroceryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +122,12 @@
 				6C5B4DB6F13B72F33DB0F653 /* Pods-simply-grocery-simply-groceryUITests.release.xcconfig */,
 				17743BDE7D1C785951572907 /* Pods-simply-groceryTests.debug.xcconfig */,
 				F3D89C8DBD6F7E0CAF633435 /* Pods-simply-groceryTests.release.xcconfig */,
+				3DB8FC4ABED3E5ABD88602C5 /* Pods-Simply Grocery.debug.xcconfig */,
+				496D5946F35E99E222D8B2FC /* Pods-Simply Grocery.release.xcconfig */,
+				8CE57F277AF788920F035B91 /* Pods-Simply Grocery-Simply GroceryUITests.debug.xcconfig */,
+				6D27A7BBBB7FE87C91C0D62A /* Pods-Simply Grocery-Simply GroceryUITests.release.xcconfig */,
+				CCBFA0E5FE64CEFB9A493597 /* Pods-Simply GroceryTests.debug.xcconfig */,
+				90C2B0DC65C373EA058383D9 /* Pods-Simply GroceryTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -127,9 +135,9 @@
 		5F4DF33E23A0844300FF830C /* LoginViews */ = {
 			isa = PBXGroup;
 			children = (
-				5F4DF3342399E53800FF830C /* GroceryListView.swift */,
-				5F4DF34523A090F600FF830C /* AddNewItemView.swift */,
-				5FF227CE23A1CB35004CEEDA /* ToDoList */,
+				5F9419F42392FEA300F0CEEE /* SignUp.swift */,
+				5F2515732395EDF700E66843 /* LoginView.swift */,
+				5F25157523960A5100E66843 /* WelcomeView.swift */,
 			);
 			path = LoginViews;
 			sourceTree = "<group>";
@@ -164,11 +172,10 @@
 				5F9419F22392FEA300F0CEEE /* SceneDelegate.swift */,
 				5F61841723932147006982BE /* GoogleService-Info.plist */,
 				5F9419F62392FEA600F0CEEE /* Assets.xcassets */,
-				5F9419FB2392FEA600F0CEEE /* LaunchScreen.storyboard */,
 				5F9419FE2392FEA600F0CEEE /* Info.plist */,
 				5F4DF339239C53BF00FF830C /* UserSettings.swift */,
 				5F9419F82392FEA600F0CEEE /* Preview Content */,
-				5F4DF33C239C5AC800FF830C /* Session.swift */,
+				5F779CB123A314E200BCFE95 /* db.swift */,
 			);
 			path = "simply-grocery";
 			sourceTree = "<group>";
@@ -199,13 +206,22 @@
 			path = "simply-groceryUITests";
 			sourceTree = "<group>";
 		};
+		5F95962323A71430003AAAB3 /* SuccessfulLoginViews */ = {
+			isa = PBXGroup;
+			children = (
+				5FFFC3AE23AB0F9600CC1481 /* FindNearest */,
+				5FF227CE23A1CB35004CEEDA /* ToDoList */,
+				5F4DF3342399E53800FF830C /* GroceryListView.swift */,
+				5F4DF34523A090F600FF830C /* AddNewItemView.swift */,
+			);
+			path = SuccessfulLoginViews;
+			sourceTree = "<group>";
+		};
 		5FB57D17239325D900781752 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5F95962323A71430003AAAB3 /* SuccessfulLoginViews */,
 				5F4DF33E23A0844300FF830C /* LoginViews */,
-				5F2515732395EDF700E66843 /* LoginView.swift */,
-				5F9419F42392FEA300F0CEEE /* SignUp.swift */,
-				5F25157523960A5100E66843 /* WelcomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -213,19 +229,25 @@
 		5FF227CE23A1CB35004CEEDA /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
-				5F4DF34123A088B200FF830C /* RefreshableScrollView.swift */,
-				5F4DF34323A0890A00FF830C /* dbLookupView.swift */,
 				5F4DF33F23A0866000FF830C /* ToDoListView.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
 		};
+		5FFFC3AE23AB0F9600CC1481 /* FindNearest */ = {
+			isa = PBXGroup;
+			children = (
+				5FFFC3AF23AB0FAF00CC1481 /* FindNearestView.swift */,
+			);
+			path = FindNearest;
+			sourceTree = "<group>";
+		};
 		D6F1D7CC03AC71A70245AA17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5DE8E24A05539A5783388D81 /* Pods_simply_grocery.framework */,
-				25718AD9BD39AA9ABE6593CC /* Pods_simply_grocery_simply_groceryUITests.framework */,
-				27E72FCDBC6FD6C24F7D5284 /* Pods_simply_groceryTests.framework */,
+				B543F61C679AD4B113C4D999 /* Pods_Simply_Grocery.framework */,
+				546A072D73CC8D081081C0E2 /* Pods_Simply_Grocery_Simply_GroceryUITests.framework */,
+				88C0C3C8F3F435E95C09CAED /* Pods_Simply_GroceryTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -341,7 +363,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F9419FD2392FEA600F0CEEE /* LaunchScreen.storyboard in Resources */,
 				5F61841823932147006982BE /* GoogleService-Info.plist in Resources */,
 				5F9419FA2392FEA600F0CEEE /* Preview Assets.xcassets in Resources */,
 				5F9419F72392FEA600F0CEEE /* Assets.xcassets in Resources */,
@@ -380,7 +401,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-simply-grocery-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Simply Grocery-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -402,7 +423,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-simply-grocery-simply-groceryUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Simply Grocery-Simply GroceryUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -415,15 +436,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-simply-grocery/Pods-simply-grocery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Simply Grocery/Pods-Simply Grocery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-simply-grocery/Pods-simply-grocery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Simply Grocery/Pods-Simply Grocery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simply-grocery/Pods-simply-grocery-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Simply Grocery/Pods-Simply Grocery-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		58A0E5E107CF5B780F5889D9 /* [CP] Check Pods Manifest.lock */ = {
@@ -441,7 +462,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-simply-groceryTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Simply GroceryTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -454,15 +475,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-simply-grocery-simply-groceryUITests/Pods-simply-grocery-simply-groceryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Simply Grocery-Simply GroceryUITests/Pods-Simply Grocery-Simply GroceryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-simply-grocery-simply-groceryUITests/Pods-simply-grocery-simply-groceryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Simply Grocery-Simply GroceryUITests/Pods-Simply Grocery-Simply GroceryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simply-grocery-simply-groceryUITests/Pods-simply-grocery-simply-groceryUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Simply Grocery-Simply GroceryUITests/Pods-Simply Grocery-Simply GroceryUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DB9A2361D5160B434513F850 /* [CP] Copy Pods Resources */ = {
@@ -471,15 +492,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-simply-grocery/Pods-simply-grocery-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Simply Grocery/Pods-Simply Grocery-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-simply-grocery/Pods-simply-grocery-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Simply Grocery/Pods-Simply Grocery-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simply-grocery/Pods-simply-grocery-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Simply Grocery/Pods-Simply Grocery-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EC4AF371BC9462B2665D104F /* [CP] Copy Pods Resources */ = {
@@ -488,15 +509,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-simply-grocery-simply-groceryUITests/Pods-simply-grocery-simply-groceryUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Simply Grocery-Simply GroceryUITests/Pods-Simply Grocery-Simply GroceryUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-simply-grocery-simply-groceryUITests/Pods-simply-grocery-simply-groceryUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Simply Grocery-Simply GroceryUITests/Pods-Simply Grocery-Simply GroceryUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-simply-grocery-simply-groceryUITests/Pods-simply-grocery-simply-groceryUITests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Simply Grocery-Simply GroceryUITests/Pods-Simply Grocery-Simply GroceryUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -506,18 +527,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4DF34423A0890A00FF830C /* dbLookupView.swift in Sources */,
 				5F25157623960A5100E66843 /* WelcomeView.swift in Sources */,
 				5F9419F12392FEA300F0CEEE /* AppDelegate.swift in Sources */,
+				5F779CB223A314E200BCFE95 /* db.swift in Sources */,
 				5F4DF3352399E53800FF830C /* GroceryListView.swift in Sources */,
 				5F4DF34023A0866000FF830C /* ToDoListView.swift in Sources */,
 				5F9419F32392FEA300F0CEEE /* SceneDelegate.swift in Sources */,
-				5F4DF33D239C5AC800FF830C /* Session.swift in Sources */,
 				5F9419F52392FEA300F0CEEE /* SignUp.swift in Sources */,
+				5FFFC3B023AB0FAF00CC1481 /* FindNearestView.swift in Sources */,
 				5F4DF34623A090F600FF830C /* AddNewItemView.swift in Sources */,
 				5F2515742395EDF800E66843 /* LoginView.swift in Sources */,
 				5F4DF33A239C53BF00FF830C /* UserSettings.swift in Sources */,
-				5F4DF34223A088B200FF830C /* RefreshableScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,17 +571,6 @@
 			targetProxy = 5F941A0F2392FEA700F0CEEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5F9419FB2392FEA600F0CEEE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F9419FC2392FEA600F0CEEE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5F941A152392FEA700F0CEEE /* Debug */ = {
@@ -680,7 +689,7 @@
 		};
 		5F941A182392FEA700F0CEEE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E7B5056FD91D3B9A42D9FA3 /* Pods-simply-grocery.debug.xcconfig */;
+			baseConfigurationReference = 3DB8FC4ABED3E5ABD88602C5 /* Pods-Simply Grocery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -701,7 +710,7 @@
 		};
 		5F941A192392FEA700F0CEEE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F15D5560048BD0E6802ACBB0 /* Pods-simply-grocery.release.xcconfig */;
+			baseConfigurationReference = 496D5946F35E99E222D8B2FC /* Pods-Simply Grocery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -722,7 +731,7 @@
 		};
 		5F941A1B2392FEA700F0CEEE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17743BDE7D1C785951572907 /* Pods-simply-groceryTests.debug.xcconfig */;
+			baseConfigurationReference = CCBFA0E5FE64CEFB9A493597 /* Pods-Simply GroceryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -745,7 +754,7 @@
 		};
 		5F941A1C2392FEA700F0CEEE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3D89C8DBD6F7E0CAF633435 /* Pods-simply-groceryTests.release.xcconfig */;
+			baseConfigurationReference = 90C2B0DC65C373EA058383D9 /* Pods-Simply GroceryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -768,7 +777,7 @@
 		};
 		5F941A1E2392FEA700F0CEEE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95E3811B7FA41F07F4FFE096 /* Pods-simply-grocery-simply-groceryUITests.debug.xcconfig */;
+			baseConfigurationReference = 8CE57F277AF788920F035B91 /* Pods-Simply Grocery-Simply GroceryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -789,7 +798,7 @@
 		};
 		5F941A1F2392FEA700F0CEEE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C5B4DB6F13B72F33DB0F653 /* Pods-simply-grocery-simply-groceryUITests.release.xcconfig */;
+			baseConfigurationReference = 6D27A7BBBB7FE87C91C0D62A /* Pods-Simply Grocery-Simply GroceryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
